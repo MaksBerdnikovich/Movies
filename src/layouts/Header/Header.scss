@@ -1,0 +1,29 @@
+.Header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: var(--transition);
+    z-index: 10;
+
+    &.sticky {
+        background-color: rgba(#020d18, 0.95);
+        box-shadow: var(--shadow);
+
+        .HeaderWrap{
+            padding: 5px 0;
+        }
+    }
+}
+
+.HeaderWrap{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    transition: var(--transition);
+
+    @media only screen and (max-width: 767px){
+        flex-wrap: wrap;
+        padding: 5px 0;
+    }
+}

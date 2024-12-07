@@ -1,0 +1,41 @@
+.Menu{
+    position: relative;
+    margin-left: auto;
+
+    ul{
+        display: flex;
+        margin: 0 -15px;
+
+        li{
+            padding: 0 15px;
+
+            a{
+                position: relative;
+                font-weight: 700;
+                text-transform: uppercase;
+
+                sup{
+                    position: absolute;
+                    top: -5px;
+                    right: -10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    min-width: 12px;
+                    min-height: 12px;
+                    background-color: var(--cl-light);
+                    border-radius: 50%;
+                    line-height: 1;
+                    font-size: 9px;
+                    font-weight: 700;
+                    text-align: center;
+                    color: var(--cl-dark);
+                }
+
+                &.active{
+                    color: var(--cl-yellow);
+                }
+            }
+        }
+    }
+}
