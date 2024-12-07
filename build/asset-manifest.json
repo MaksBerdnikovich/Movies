@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Movies/static/css/main.8708583d.css",
+    "main.js": "/Movies/static/js/main.dc46a362.js",
+    "static/media/ft-bg.jpg": "/Movies/static/media/ft-bg.7a4da7c28cbbf633281a.jpg",
+    "static/media/hero-bg.jpg": "/Movies/static/media/hero-bg.6bae7c2a9118f0c7407a.jpg",
+    "index.html": "/Movies/index.html",
+    "main.8708583d.css.map": "/Movies/static/css/main.8708583d.css.map",
+    "main.dc46a362.js.map": "/Movies/static/js/main.dc46a362.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8708583d.css",
+    "static/js/main.dc46a362.js"
+  ]
+}
